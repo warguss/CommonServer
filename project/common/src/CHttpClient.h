@@ -7,6 +7,9 @@
  ***********************/
 class CHttpClient
 {
+	private:
+		int _fd;
+
 	public:
 		CHttpClient();
 		~CHttpClient();
@@ -24,6 +27,9 @@ class CHttpClient
 		bool deleteHeader(); 
 
 		bool getStatusLine();
+		bool setStatusLine();
+
+		bool operation();
 }
 
 
