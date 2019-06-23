@@ -1,3 +1,3 @@
 #!/bin/sh
 
-node ./test.js
+node ./init.js
